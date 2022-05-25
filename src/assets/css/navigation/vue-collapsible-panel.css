@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap);
+
+.vcpg {
+    border: 1px solid #dddddd00;
+    border-radius: 4px;
+    width: 100%
+}
+
+.vcpg .vcp * {
+    box-sizing: border-box
+}
+
+.vcpg .vcp__header {
+    background-color: #dddddd00;
+    height: 46px;
+    transition: background-color .3s ease
+}
+
+.vcpg .vcp__header:hover {
+    background-color: #dddddd00;
+}
+
+.vcpg .vcp__header:active {
+    background-color: #dddddd00;
+}
+
+.vcpg .vcp:not(:first-of-type) .vcp__header {
+    border-top: 1px solid var(#dddddd00)
+}
+
+.vcpg .vcp__header-title {
+    font-weight: 500
+}
+
+.vcpg .vcp__body {
+    border-top: 1px solid var(#dddddd00);
+    background-color: #dddddd00;
+}
+
+.vcp__header {
+    display: flex;
+    pointer-events: none
+}
+
+.vcp--expandable .vcp__header {
+    pointer-events: auto;
+    cursor: pointer
+}
+
+.vcp__header-title {
+    align-items: center;
+    flex: 1
+}
+
+.vcp__header-icon {
+    display: flex;
+    align-items: center;
+    transition: transform .3s cubic-bezier(.5, .25, 0, 1);
+    opacity: 0;
+}
+.effect-airbnb.animate  .vcp__header-icon{
+  opacity: 1;
+}
+
+.vcp--expanded .vcp__header-icon {
+    transform-origin: center;
+    transform: rotate(180deg)
+}
+
+.vcp__header-icon>span {
+    display: flex;
+    height: 24px;
+    width: 24px
+}
+
+.vcp__header-icon svg {
+    height: 100%;
+    width: 100%
+}
+
+.vcp__body {
+    overflow: hidden;
+    transition: all .3s cubic-bezier(.5, .25, 0, 1)
+}

@@ -1,0 +1,485 @@
+{
+  "topSellers": {
+    "1": {
+      "name": "Sam",
+      "rating": "647.34 SOL",
+      "imageUrl": "https://res.cloudinary.com/tinyfac-es/image/upload/w_1024,h_1024,c_fit/v1627199993/facebook/qtrhuhosedcya2cx67fg.jpg"
+    },
+    "2": {
+      "name": "Josh",
+      "rating": "521.85 SOL",
+      "imageUrl": "https://res.cloudinary.com/tinyfac-es/image/upload/w_1024,h_1024,c_fit/v1627200073/facebook/brjtaglgbjlbeqk6r97j.jpg"
+    },
+    "3": {
+      "name": "Janet",
+      "rating": "511.45 SOL",
+      "imageUrl": "https://res.cloudinary.com/tinyfac-es/image/upload/w_1024,h_1024,c_fit/v1627199965/facebook/esqf0ilj4r3siucffj19.jpg"
+    },
+    "4": {
+      "name": "Sarah",
+      "rating": "499.11 SOL",
+      "imageUrl": "https://res.cloudinary.com/tinyfac-es/image/upload/w_1024,h_1024,c_fit/v1627199994/facebook/e4tepaeflliqhottb7ol.jpg"
+    },
+    "5": {
+      "name": "Thomas",
+      "rating": "647.34 SOL",
+      "imageUrl": "https://res.cloudinary.com/tinyfac-es/image/upload/w_1024,h_1024,c_fit/v1627199961/facebook/lboglhxqyqhvfshkcyvk.jpg"
+    },
+    "6": {
+      "name": "Paddy",
+      "rating": "521.85 SOL",
+      "imageUrl": "https://res.cloudinary.com/tinyfac-es/image/upload/w_1024,h_1024,c_fit/v1627200028/facebook/ljnsenjeb91wbyjq1oy5.jpg"
+    },
+    "7": {
+      "name": "Mason",
+      "rating": "511.45 SOL",
+      "imageUrl": "https://res.cloudinary.com/tinyfac-es/image/upload/w_1024,h_1024,c_fit/v1627200081/facebook/tqwmehatxw8uwmolnrfw.jpg"
+    },
+    "8": {
+      "name": "Emalee",
+      "rating": "499.11 SOL",
+      "imageUrl": "https://res.cloudinary.com/tinyfac-es/image/upload/w_1024,h_1024,c_fit/v1627199916/facebook/w47awmubgxxuk1vnjyek.jpg"
+    },
+    "9": {
+      "name": "Harcourt",
+      "rating": "647.34 SOL",
+      "imageUrl": "https://res.cloudinary.com/tinyfac-es/image/upload/w_1024,h_1024,c_fit/v1627200006/facebook/oe57gu4d20vpp3rxccyz.jpg"
+    },
+    "10": {
+      "name": "Bab",
+      "rating": "521.85 SOL",
+      "imageUrl": "https://res.cloudinary.com/tinyfac-es/image/upload/w_1024,h_1024,c_fit/v1627199980/facebook/fdvfdailyvnb3gajgftk.jpg"
+    },
+    "11": {
+      "name": "Jack",
+      "rating": "511.45 SOL",
+      "imageUrl": "https://res.cloudinary.com/tinyfac-es/image/upload/w_1024,h_1024,c_fit/v1627199937/facebook/scgz8kxjrnszgogggqks.jpg"
+    },
+    "12": {
+      "name": "John",
+      "rating": "499.11 SOL",
+      "imageUrl": "https://res.cloudinary.com/tinyfac-es/image/upload/w_1024,h_1024,c_fit/v1630596435/facebook/rw9x7plxcpgwtzmk6p37.jpg"
+    }
+  },
+
+  "popularCollections": {
+    "1": {
+      "title": "Cyberpunk City Art",
+      "owner": "Naretor-Nole",
+      "imgUrl": "img/art-work/c1.png"
+    },
+    "2": {
+      "title": "Murphy the Mutant",
+      "owner": "Johan Doe",
+      "imgUrl": "img/art-work/c2.png"
+    },
+    "3": {
+      "title": "Beeple Special Edition",
+      "owner": "Naretor-Nole",
+      "imgUrl": "img/art-work/c3.png"
+    },
+    "4": {
+      "title": "Floyd Mayweather Jr.",
+      "owner": "Kera_one",
+      "imgUrl": "img/art-work/c4.png"
+    },
+    "5": {
+      "title": "Cyberpunk City Art",
+      "owner": "Naretor-Nole",
+      "imgUrl": "img/art-work/c1.png"
+    },
+    "6": {
+      "title": "Murphy the Mutant",
+      "owner": "Johan Doe",
+      "imgUrl": "img/art-work/c2.png"
+    },
+    "7": {
+      "title": "Beeple Special Edition",
+      "owner": "Naretor-Nole",
+      "imgUrl": "img/art-work/c3.png"
+    },
+    "8": {
+      "title": "Floyd Mayweather Jr.",
+      "owner": "Kera_one",
+      "imgUrl": "img/art-work/c4.png"
+    },
+    "9": {
+      "title": "Floyd Mayweather Jr.",
+      "owner": "Kera_one",
+      "imgUrl": "img/art-work/c4.png"
+    },
+    "10": {
+      "title": "Cyberpunk City Art",
+      "owner": "Naretor-Nole",
+      "imgUrl": "img/art-work/c1.png"
+    },
+    "11": {
+      "title": "Murphy the Mutant",
+      "owner": "Johan Doe",
+      "imgUrl": "img/art-work/c2.png"
+    },
+    "12": {
+      "title": "Beeple Special Edition",
+      "owner": "Naretor-Nole",
+      "imgUrl": "img/art-work/c3.png"
+    }
+  },
+
+  "newListedItems": {
+    "1": {
+      "name": "LarySmith - 30",
+      "title": "Scarecrow in daylight",
+      "price": "0.081 SOL",
+      "Highest Bid": "0.081 SOL",
+      "hour ago": "6 hours",
+      "like": 134,
+      "imgUrl": "img/art-work/1.png",
+      "logo": "img/authors/2.png",
+      "category": "collectable"
+    },
+    "2": {
+      "name": "LarySmith - 30",
+      "title": "Darklight Angel 01",
+      "price": "0.081 SOL",
+      "Highest Bid": "0.081 SOL",
+      "hour ago": "6 hours",
+      "like": 134,
+      "imgUrl": "img/art-work/2.png",
+      "logo": "img/authors/3.png",
+      "category": "onAction"
+    },
+    "3": {
+      "name": "LarySmith - 30",
+      "title": "Darklight Angel 01",
+      "price": "0.081 SOL",
+      "Highest Bid": "0.081 SOL",
+      "hour ago": "6 hours",
+      "like": 134,
+      "imgUrl": "img/art-work/3.png",
+      "logo": "img/authors/8.png",
+      "category": "created"
+    },
+    "4": {
+      "name": "LarySmith - 30",
+      "title": "Twilight Fracture City",
+      "price": "0.081 SOL",
+      "Highest Bid": "0.081 SOL",
+      "hour ago": "6 hours",
+      "like": 134,
+      "imgUrl": "img/art-work/4.png",
+      "logo": "img/authors/6.png",
+      "category": "collectable"
+    },
+    "5": {
+      "name": "LarySmith - 30",
+      "title": "Resonate Sanctuary II",
+      "price": "0.081 SOL",
+      "Highest Bid": "0.081 SOL",
+      "hour ago": "6 hours",
+      "like": 134,
+      "imgUrl": "img/art-work/5.png",
+      "logo": "img/authors/2.png",
+      "category": "onAction"
+    },
+    "6": {
+      "name": "LarySmith - 30",
+      "title": "Analogue refraction #3",
+      "price": "0.081 SOL",
+      "Highest Bid": "0.081 SOL",
+      "hour ago": "6 hours",
+      "like": 134,
+      "imgUrl": "img/art-work/6.png",
+      "logo": "img/authors/3.png",
+      "category": "collectable"
+    },
+    "7": {
+      "name": "LarySmith - 30",
+      "title": "Super-Neumorphism #7",
+      "price": "0.081 SOL",
+      "Highest Bid": "0.081 SOL",
+      "hour ago": "6 hours",
+      "like": 134,
+      "imgUrl": "img/art-work/7.png",
+      "logo": "img/authors/8.png",
+      "category": "created"
+    },
+    "8": {
+      "name": "LarySmith - 30",
+      "title": "Exe Dream Sequence ",
+      "price": "0.081 SOL",
+      "Highest Bid": "0.081 SOL",
+      "hour ago": "6 hours",
+      "like": 134,
+      "imgUrl": "img/art-work/8.png",
+      "logo": "img/authors/6.png",
+      "category": "onAction"
+    }
+  },
+  "liveAuctions": {
+    "1": {
+      "name": "LarySmith - 30",
+      "title": "Bored Ape Yacht Club",
+      "price": "0.081 SOL",
+      "deadline": "August 22, 2024",
+      "imgUrl": "img/art-work/9.png",
+      "logo": "img/authors/2.png",
+      "action": true
+    },
+    "2": {
+      "name": "Johan Done",
+      "title": "After Snow: Attraction",
+      "price": "0.081 SOL",
+      "deadline": "August 22, 2024",
+      "imgUrl": "img/art-work/1.png",
+      "logo": "img/authors/3.png",
+      "action": true
+    },
+    "3": {
+      "name": "LarySmith-3",
+      "title": "Mortimer Crypto Mystic",
+      "price": "0.081 SOL",
+      "deadline": "August 22, 2024",
+      "imgUrl": "img/art-work/11.png",
+      "logo": "img/authors/8.png",
+      "action": true
+    },
+    "4": {
+      "name": "SmithWright",
+      "title": "People are the pillars",
+      "price": "0.081 SOL",
+      "deadline": "August 22, 2024",
+      "imgUrl": "img/art-work/2.png",
+      "logo": "img/authors/6.png",
+      "action": true
+    }
+  },
+  "LatestBids": {
+    "1": {
+      "name": "LarySmith",
+      "price": "0.202 SOL",
+      "logo": "img/authors/2.png",
+      "laterTime": "12:59 AM",
+      "total": "$321.12"
+    },
+    "2": {
+      "name": "LarySmith",
+      "price": "0.202 SOL",
+      "logo": "img/authors/3.png",
+      "laterTime": "12:59 AM",
+      "total": "$321.12"
+    },
+    "3": {
+      "name": "LarySmith",
+      "price": "0.202 SOL",
+      "logo": "img/authors/4.png",
+      "laterTime": "12:59 AM",
+      "total": "$321.12"
+    },
+    "4": {
+      "name": "LarySmith",
+      "price": "0.202 SOL",
+      "logo": "img/authors/5.png",
+      "laterTime": "12:59 AM",
+      "total": "$321.12"
+    }
+  },
+  "itemInformation": {
+    "1": {
+      "name": "LarySmith",
+      "price": "0.202 SOL",
+      "total": "$321.12",
+
+      "logo": "img/authors/8.png",
+      "size": "3000 x 3000",
+      "date": "04 April , 2021",
+      "collection": "Cyberpunk City Art",
+      "owner": "LarySmith - 30 "
+    }
+  },
+  "highestBid": {
+    "1": {
+      "logo": "img/art-work/fire.png",
+      "name": "LarySmith",
+      "price": "0.202 SOL",
+      "total": "$321.12",
+      "img": "img/authors/2.png"
+    }
+  },
+  "ourAuthors": {
+    "1": {
+      "authorName": "Morgan Wright",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "logo": "img/art-work/c1.png",
+      "img": "img/authors/2.png"
+    },
+    "2": {
+      "authorName": "Sendos Ali",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "logo": "img/art-work/c2.png",
+      "img": "img/authors/3.png"
+    },
+    "3": {
+      "authorName": "Kamilia Norsh",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "logo": "img/art-work/c3.png",
+      "img": "img/authors/4.png"
+    },
+    "4": {
+      "authorName": "Semova Altena",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "logo": "img/art-work/c4.png",
+      "img": "img/authors/5.png"
+    },
+    "5": {
+      "authorName": "Naretor-Nole",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "logo": "img/art-work/c3.png",
+      "img": "img/authors/6.png"
+    },
+    "6": {
+      "authorName": "Johan Donem",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "logo": "img/art-work/c4.png",
+      "img": "img/authors/7.png"
+    },
+    "7": {
+      "authorName": "Amillia Nnor",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "logo": "img/art-work/c2.png",
+      "img": "img/authors/8.png"
+    },
+    "8": {
+      "authorName": "LarySmith-30",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "logo": "img/art-work/c1.png",
+      "img": "img/authors/9.png"
+    }
+  },
+  "connectWith": {
+    "1": {
+      "connectWith": " Phantom",
+      "img": "img/icons/w2.png"
+    },
+    "2": {
+      "connectWith": " MetaMask",
+      "img": "img/icons/w1.png"
+    },
+    "3": {
+      "connectWith": " WalletConnect",
+      "img": "img/icons/w2.png"
+    },
+    "4": {
+      "connectWith": " Ledger",
+      "img": "img/icons/w3.png"
+    }
+  },
+  "timeLine": {
+    "1": {
+      "day": "6/16/2021 ",
+      "time": "12:59 AM",
+      "work": "Lucky 4 Leaf Clover (charms)",
+      "action": "10 editions listed by",
+      "by": "@Nola_Naser",
+      "moreDetails": " for 0.23 SOL Each"
+    },
+    "2": {
+      "day": "6/16/2021 ",
+      "time": "12:59 AM",
+      "work": "Erotic 35mm and polaroid photography",
+      "action": "RecentlyLiked by",
+      "by": "@Nola_Naser"
+    },
+    "3": {
+      "day": "6/16/2021 ",
+      "time": "12:59 AM",
+      "work": "Skrrt Cobain Official",
+      "action": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    },
+    "4": {
+      "day": "6/16/2021 ",
+      "time": "12:59 AM",
+      "work": "Reach 1k Sales",
+      "action": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    },
+    "5": {
+      "day": "6/6/2021 ",
+      "time": "12:59 AM",
+      "work": "Our Journey Start",
+      "action": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    },
+    "6": {
+      "day": "6/16/2021",
+      "time": "12:59 AM",
+      "work": "Create A Module",
+      "action": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    }
+  },
+  "newListedItemsProfile": {
+    "1": {
+      "name": "LarySmith - 30",
+      "title": "Resonate Sanctuary",
+      "price": "0.00 SOL",
+      "Highest Bid": "0.00 SOL",
+      "hour ago": "1 hours",
+      "like": 134,
+      "imgUrl": "img/art-work/1.png",
+      "logo": "img/authors/2.png",
+      "category": "collectable"
+    },
+    "2": {
+      "name": "LarySmith - 30",
+      "title": "Resonate Sanctuary",
+      "price": "0.00 SOL",
+      "Highest Bid": "0.00 SOL",
+      "hour ago": "1 hours",
+      "like": 134,
+      "imgUrl": "img/art-work/2.png",
+      "logo": "img/authors/2.png",
+      "category": "collectable"
+    },
+    "3": {
+      "name": "LarySmith - 30",
+      "title": "Resonate Sanctuary",
+      "price": "0.00 SOL",
+      "Highest Bid": "0.00 SOL",
+      "hour ago": "1 hours",
+      "like": 134,
+      "imgUrl": "img/art-work/3.png",
+      "logo": "img/authors/2.png",
+      "category": "onAction"
+    },
+    "4": {
+      "name": "LarySmith - 30",
+      "title": "Resonate Sanctuary",
+      "price": "0.00 SOL",
+      "Highest Bid": "0.00 SOL",
+      "hour ago": "1 hours",
+      "like": 134,
+      "imgUrl": "img/art-work/4.png",
+      "logo": "img/authors/2.png",
+      "category": "onAction"
+    },
+    "5": {
+      "name": "LarySmith - 30",
+      "title": "Resonate Sanctuary",
+      "price": "0.00 SOL",
+      "Highest Bid": "0.00 SOL",
+      "hour ago": "1 hours",
+      "like": 134,
+      "imgUrl": "img/art-work/5.png",
+      "logo": "img/authors/2.png",
+      "category": "created"
+    },
+    "6": {
+      "name": "LarySmith - 30",
+      "title": "Resonate Sanctuary",
+      "price": "0.00 SOL",
+      "Highest Bid": "0.00 SOL",
+      "hour ago": "1 hours",
+      "like": 134,
+      "imgUrl": "img/art-work/6.png",
+      "logo": "img/authors/2.png",
+      "category": "created"
+    }
+  }
+}

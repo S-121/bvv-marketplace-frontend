@@ -1,0 +1,45 @@
+{
+  "name": "Adam Mirror Test 9",
+  "symbol": "adamtars",
+  "description": "Quick test using mirror app",
+  "seller_fee_basis_points": 250,
+  "image": "https://gateway.pinata.cloud/ipfs/QmYEkC719CNibAF5UPwQWn6Q2vCs1ecJJnBqsypSW2uNtm/advatar/9.png",
+  "attributes": [
+    {
+      "trait_type": "Mood",
+      "value": "Happy"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Empty"
+    },
+    {
+      "trait_type": "Bubble Colour",
+      "value": "Orange"
+    },
+    {
+      "trait_type": "Bubble Phase",
+      "value": "How is your DAY?"
+    }
+  ],
+  "collection": {
+    "name": "Adam Avatar NFT Collection",
+    "family": "Advatar"
+  },
+  "properties": {
+    "files": [
+      {
+        "uri": "https://gateway.pinata.cloud/ipfs/QmYEkC719CNibAF5UPwQWn6Q2vCs1ecJJnBqsypSW2uNtm/advatar/9.png",
+        "type": "unknown",
+        "cdn": true
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "CA5Z2rqjoUAbTmGUvPnGYzxgLeQzMcaVNKgjbFNzmPAG",
+        "share": 100
+      }
+    ]
+  }
+}

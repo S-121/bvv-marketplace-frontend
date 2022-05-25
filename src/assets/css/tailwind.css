@@ -1,0 +1,119 @@
+/** @todo Sort through all project styling remove bootstrap css to replace by tailwind css */
+@import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+/** Layouts **/
+@import 'layouts/default.css';
+@import 'layouts/real-estate.css';
+@import 'layouts/avatar.css';
+@import 'layouts/groasis.css';
+
+/** Components **/
+@import 'components/base/spinner.css';
+@import 'components/base/header.css';
+@import 'components/base/button.css';
+@import 'components/base/form.css';
+@import 'components/base/input.css';
+@import 'components/base/select.css';
+@import 'components/helpers/section.header.css';
+@import 'components/helpers/scroll-to-top.css';
+
+/** Pages **/
+@import 'pages/home.css';
+@import 'pages/discover.css';
+@import 'pages/temp.css';
+
+/** Presale **/
+@import 'presale/real-estate.css';
+@import 'presale/avatars.css';
+@import 'presale/groasis.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.anicons-icon {
+  font-family: 'Anicons Regular', sans-serif;
+  font-variation-settings: 'TIME' 1;
+  transition: font-variation-settings 0.4s ease;
+  color: var(--color-text-invert);
+}
+.anicons-icon:hover {
+  font-variation-settings: 'TIME' 100;
+}
+
+@layer base {
+  @font-face {
+    font-family: 'nasalizationregular';
+    src: url('../fonts/nasalization-rg-webfont.woff2') format('woff2'),
+      url('../fonts/nasalization-rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+}
+
+/** Only works outside base layout? **/
+:root {
+  --color-text-base: #ffffff;
+  --color-text-invert: #000000;
+  --color-text-muted: #545488;
+  --color-text-featured: #dc4a4a;
+  --color-text-gradient-start: #01e3e9;
+  --color-text-gradient-end: #176dc9;
+  --color-fill: #0f0823;
+  --color-start: #0f0823;
+  --color-end: #190c37;
+  --color-button-accent: #0f0823;
+  --color-button-accent-hover: #1b0d3c;
+  --color-button-muted: #ffffff;
+  --color-button-featured: #cbfb01;
+  --color-border: #cbfb01;
+}
+.theme-avatars {
+  --color-text-base: #ffffff;
+  --color-text-muted: #9c9caa;
+  --color-text-featured: #e2385e;
+  --color-text-gradient-start: #5a23c9;
+  --color-text-gradient-end: #f93b5d;
+  --color-fill: #05183c;
+  --color-start: #05183c;
+  --color-end: #0f1a28;
+  --color-button-accent: #465567;
+  --color-button-accent-hover: #14223d;
+  --color-button-featured: #e2385e;
+  --color-border: #465567;
+}
+.theme-groasis {
+  --color-text-base: #ffffff;
+  --color-text-invert: #7fd71c;
+  --color-text-muted: #545488;
+  --color-text-featured: #7fd71c;
+  --color-text-gradient-start: #01e3e9;
+  --color-text-gradient-end: #176dc9;
+  --color-fill: #070d25;
+  --color-start: #070d25;
+  --color-end: #070d25;
+  --color-button-accent: #073371;
+  --color-button-accent-hover: #070d25;
+  --color-button-muted: #7fd71c;
+  --color-button-featured: #37b115;
+  --color-border: #7fd71c;
+}
+.theme-real-estate {
+  --color-text-base: #ffffff;
+  --color-text-muted: #9c9caa;
+  --color-text-featured: #81b539;
+  --color-text-gradient-start: #ffffff;
+  --color-text-gradient-end: #dfaf63;
+  --color-fill: #0e1323;
+  --color-start: #0e1323;
+  --color-end: #2c2838;
+  --color-button-accent: #0d1527;
+  --color-button-accent-hover: #14223d;
+  --color-button-featured: #0d1527;
+  --color-border: #dfaf63;
+}
+
+.swv-button-trigger {
+  @apply btn login-btn border-skin-color !bg-skin-button-accent text-skin-base hover:bg-skin-button-accent-hover hover:text-skin-base;
+}

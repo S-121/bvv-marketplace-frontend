@@ -1,0 +1,61 @@
+/** Presale Groasis specific styles **/
+#groasis .intro-bg {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  visibility: inherit;
+  background: none;
+}
+#groasis .intro-bg:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: contain;
+  width: 100%;
+  right: 0;
+  height: 22%;
+  background-image: url('/img/presale/groasis/intro-leafs-top-left-bg.webp');
+  background-repeat: no-repeat;
+  content: '';
+}
+#groasis .intro-bg:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-size: contain;
+  width: 100%;
+  right: 0;
+  height: 50%;
+  background-image: url('/img/presale/groasis/intro-leafs-bottom-left-bg.webp');
+  background-repeat: no-repeat;
+  content: '';
+}
+#groasis .intro-bg .inner:before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20vh;
+  height: 20vh;
+  background-size: contain;
+  background-image: url('/img/presale/groasis/intro-leafs-top-right-bg.webp');
+  background-repeat: no-repeat;
+  content: '';
+}
+#groasis .intro-bg .inner:after {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 40vh;
+  height: 42vh;
+  z-index: 1000;
+  background-size: contain;
+  background-image: url('/img/presale/groasis/intro-leafs-bottom-right-bg.webp');
+  background-repeat: no-repeat;
+  content: '';
+}
+#groasis .block-pattern {
+  background-color: #031a46;
+  background-size: cover;
+  background-image: url('/img/presale/groasis/block-pattern.webp');
+}

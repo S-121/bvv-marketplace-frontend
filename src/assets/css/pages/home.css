@@ -1,0 +1,122 @@
+/** Home page specific styles **/
+
+.hero-section {
+  position: relative;
+  min-height: 460px;
+  background: transparent no-repeat bottom center;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+.hero-section.moving {
+  overflow: hidden;
+  background-size: cover;
+}
+@media (max-width: 991px) {
+  .hero-section.moving {
+    background-position: left top;
+  }
+}
+
+.intro-bg {
+  top: 95px;
+  left: 0;
+  width: 100%;
+  visibility: inherit;
+  background-size: cover;
+  background-image: url('/img/bvv/bvv-marketplace-intro-bg.png');
+}
+.nft-bg {
+  left: 0;
+  width: 100%;
+  visibility: inherit;
+  background-image: url('/img/bvv/bvv-marketplace-nft-bg.png');
+}
+
+@media screen and (max-width: 550px) {
+  .intro-bg .video-wrap {
+    transform: scale(2);
+    transform-origin: bottom;
+  }
+}
+
+.intro-bg .video-wrap {
+  position: absolute;
+  content: '';
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  visibility: inherit;
+}
+
+.intro-bg .video-wrap video {
+  width: 100vw;
+}
+
+.moving-bg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 500em;
+  height: 70%;
+  opacity: 0.1;
+  visibility: inherit;
+  background: transparent url('/img/core-img/crypto.png') repeat-x scroll 0 100%;
+  -webkit-animation: cloudwash 60s linear infinite;
+  -moz-animation: cloudwash 60s linear infinite;
+  animation: cloudwash 60s linear infinite;
+}
+
+@-webkit-keyframes cloudwash {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    -webkit-transform: translate3d(-50%, 0, 0);
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+@keyframes cloudwash {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    -webkit-transform: translate3d(-50%, 0, 0);
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+.welcome-content {
+  position: relative;
+  z-index: 1;
+}
+
+.special-head {
+  font-size: 20px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+}
+.gradient-text {
+  font-weight: bold;
+  display: inline-block;
+  background-image: linear-gradient(135deg, #26ffe6 0%, #0075f2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.gradient-text.blue {
+  background-image: linear-gradient(35deg, #17ead9 0%, #6078ea 100%);
+}
+@screen md {
+  #app .intro-bg {
+    top: 140px;
+  }
+  #app .intro-bg:after {
+    height: 625px;
+  }
+}

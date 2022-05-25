@@ -1,0 +1,10 @@
+.group-file {
+  text-align: center;
+  padding: 30px;
+  border: 2px dashed rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+#upload-btn {
+  display: none;
+}

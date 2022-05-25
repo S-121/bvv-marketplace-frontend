@@ -1,0 +1,58 @@
+.section-heading {
+  position: relative;
+  z-index: 1;
+}
+
+.section-heading h2 {
+  font-size: 30px;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+
+.section-heading > p {
+  margin-bottom: 0;
+  line-height: 2;
+  font-size: 16px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.dream-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.dream-dots span {
+  font-weight: bold;
+  display: inline-block;
+  background-image: linear-gradient(135deg, #26ffe6 0%, #0075f2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.gradient-text {
+  @apply font-header;
+  font-weight: bold;
+  display: inline-block;
+  text-transform: uppercase;
+  background-image: linear-gradient(135deg, #26ffe6 0%, #0075f2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.nav-link {
+  padding: 0 6px;
+}
+.nav-link.active {
+  background-color: transparent !important;
+}
+.nav-link.active:before {
+  position: relative;
+  content: '.';
+  color: #cbfb01;
+}

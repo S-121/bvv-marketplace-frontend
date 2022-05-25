@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "jsx": "preserve",
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "types": ["aos", "jest", "node", "vite"],
+    "paths": {
+      "@/*": ["src/*"],
+      "crypto": ["node_modules/crypto-js"]
+    },
+    "lib": [
+      "es6",
+      "esnext",
+      "es2016",
+      "dom",
+      "dom.iterable",
+      "scripthost"
+    ],
+  },
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "tests/**/*.ts", "tests/**/*.tsx"],
+  "exclude": ["node_modules", "dist", "test"]
+}

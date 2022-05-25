@@ -1,0 +1,18 @@
+/** Presale Avatars specific styles **/
+#avatars .intro-bg {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1420px;
+  z-index: 1000;
+  visibility: inherit;
+  background-size: cover;
+  background-image: url('/img/presale/avatars/intro-bg.png');
+}
+#avatars .block-pattern {
+  background-color: #031a46;
+  background-blend-mode: overlay;
+  background-size: contain;
+  background-image: url('/img/presale/avatars/block-pattern.webp');
+}
